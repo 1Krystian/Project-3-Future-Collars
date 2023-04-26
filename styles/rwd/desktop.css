@@ -1,0 +1,13 @@
+/* computer + */
+@media screen and (min-width: 1441px) {
+  .container {
+    width: 1320px;
+  }
+
+  header img {
+    top: 50px;
+    right: 30px;
+    width: 800px;
+    
+  }
+}

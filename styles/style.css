@@ -1,0 +1,153 @@
+:root {
+  --main-background-color:linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%); 
+  --main-text-color:#4B5D68;
+  --distinguished-text-color:#212353;
+  --purple-color: #9C69E2;
+
+}
+
+body {
+  background: var(--main-background-color);
+  font-size: 16px;
+  font-weight: 400;
+background-repeat: no-repeat;
+  color: var(--main-text-color);
+  font-family: 'Sen', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 50px 0;
+}
+
+h1 {
+  font-size: 40px;
+  max-width: 645px;
+  text-align: center;
+  color: var(--distinguished-text-color);
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--distinguished-text-color);
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 30px 0 50px;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: none;
+}
+
+
+.request-demo-button {
+  display: none;
+}
+
+.hamburger-menu {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-menu div {
+  width: 100%;
+  height: 20%;
+  background-color: var(--distinguished-text-color);
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+header .header-cta {
+  z-index: 1;
+  position: relative;
+padding: 16px 37px;
+background-color: var(--purple-color);
+color: white;
+border: none;
+border-radius: 50px;
+width: fit-content;
+align-self: center;
+
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+transition: 0.3s;
+overflow: hidden;
+}
+
+header p {
+  color: var(--distinguished-text-color);
+}
+
+.header-cta:hover, 
+.header-cta:focus
+ {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--purple-color);
+  }
+
+
+header .header-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: left 650ms;
+
+  background: linear-gradient(120deg, transparent, rgba(255,255,255, 0.4),transparent);
+}
+
+header .header-cta:hover::before {
+  left: 100%;
+}
+
+header img {
+  width: 100%;
+  max-width: 450px;
+  align-self: center;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.features-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
