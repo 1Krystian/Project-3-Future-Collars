@@ -1,13 +1,31 @@
 /* computer + */
 @media screen and (min-width: 1441px) {
-  .container {
-    width: 1320px;
-  }
+	.container {
+		width: 1320px;
+	}
 
-  header img {
-    top: 50px;
-    right: 30px;
-    width: 800px;
-    
-  }
+	header img {
+		top: 50px;
+		right: 30px;
+		width: 800px;
+	}
+
+	main {
+		margin-top: 200px;
+	}
+
+	.section {
+		padding-top: 100px;
+	}
+
+	.section-bgc {
+		width: 1117px;
+		height: 560px;
+		padding-right: 93px;
+	}
+
+	.section-bgc img {
+		width: 477px;
+		height: 504px;
+	}
 }

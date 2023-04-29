@@ -1,32 +1,47 @@
 /* small-computer + */
 @media screen and (min-width: 1025px) {
-  h1 {
-    font-size: 80px;
-  }
+	h1 {
+		font-size: 80px;
+	}
 
-  h2 {
-    font-size: 40px;
-  }
+	h2 {
+		font-size: 40px;
+	}
 
-  h3 {
-    font-size: 24px;
-  }
+	h3 {
+		font-size: 24px;
+	}
 
-  p {
-    font-size: 18px;
-  }
+	p {
+		font-size: 18px;
+	}
 
-  .container {
-    width: 1000px;
-  }
+	.container {
+		width: 1000px;
+	}
 
-  header {
-    gap: 50px;
+	header {
+		gap: 50px;
+	}
 
-  }
+	header img {
+		top: 100px;
+		width: 600px;
+	}
 
-  header img {
-    top: 100px;
-    width: 600px;
-  }
+	.section-text {
+		padding-right: 40px;
+	}
+
+	.testimonials {
+		display: block;
+	}
+
+	.desk {
+		display: block;
+	}
+
+	.company {
+		display: flex;
+	}
 }
